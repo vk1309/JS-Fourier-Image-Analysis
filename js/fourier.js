@@ -11,6 +11,7 @@ var Fourier = (function() {
    * work functions */
   function filter(data, dims, lowPass, highPass) {
     var lowPassSq = Math.pow(lowPass, 2);
+    var lala = 0;
     var highPassSq = Math.pow(highPass, 2);
     var N = dims[1];
     var M = dims[0];
